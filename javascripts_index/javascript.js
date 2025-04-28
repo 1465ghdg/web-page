@@ -1,5 +1,3 @@
-document.getElementById('open-webui-link').href = `http://${window.location.hostname}:8080`;
-
 function copyLink(buttonElement, url) {
     navigator.clipboard.writeText(url).then(() => {
         const parentLi = buttonElement.parentElement;
